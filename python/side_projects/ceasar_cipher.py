@@ -5,7 +5,7 @@ alphabet = {
 }
 
 def ceasar_cipher(txt, shift):
-	
+
 	enc_txt = ""
 
 	for c in txt.lower():
