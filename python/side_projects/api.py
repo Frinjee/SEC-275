@@ -16,6 +16,6 @@ brand = item_nfo['brand']
 
 # API KEY SECTION 
 baseUrl_weather = 'http://api.openweathermap.org/data/2.5/forecast'
-parameters_w = {'APPID': '41e37c504e5c617ad37e51003aad84f4','q': 'Seattle, US'}
+parameters_w = {'APPID': '','q': 'Seattle, US'}
 
 res = requests.get(baseUrl_weather, params=parameters_w)
